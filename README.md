@@ -10,7 +10,7 @@ A Python-based Forge Updater designed for Windows machines, packaged as an execu
 
 ## Installation
 
-Just simply download the .exe file
+Just simply download the forge_updater.exe file
 
 ## Usage
 
