@@ -1,6 +1,6 @@
 # Forge Updater
 
-A Python-based Forge Updater and Installer designed for Windows machines, packaged as an executable using PyInstaller. This utility simplifies the process of backing up, downloading, and extracting the latest Forge SNAPSHOT and RELEASE updates directly into your local Forge directory.
+A Python-based Forge Updater, Installer, and Launcher designed for Windows machines, packaged as an executable using PyInstaller. This utility simplifies the process of backing up, downloading, launching, and extracting the latest Forge SNAPSHOT and RELEASE updates directly into your local Forge directory.
 
 ## Features
 
@@ -16,12 +16,20 @@ A Python-based Forge Updater and Installer designed for Windows machines, packag
 
 Simply download the `forge_updater.exe` file.
 
-## Usage
+
+## Usage for Updating
 
 1. Ensure the `forge_updater.exe` is located within your Forge SNAPSHOT directory (the folder containing `forge.exe`, `forge.cmd`, `forge.sh`, and the rest of your Forge files). For a fresh install, place this in a new folder where you want Forge to be installed.
 2. Run the executable from within your Forge directory to open the updater GUI.
 3. Click the **Update Forge** button to start the update process for both SNAPSHOT and RELEASE versions and create a backup. For a fresh install, click the **Install Forge** button.
 4. Once the update or install is complete, a confirmation message will prompt you to close the window. Please wait for this message as the process may take time depending on your network speed.
+
+
+## Usage for Launching (After Updating)
+
+1. Ensure the `forge_updater.exe` is located within your Forge SNAPSHOT directory (the folder containing `forge.exe`, `forge.cmd`, `forge.sh`, and the rest of your Forge files).
+2. `Launch Snapshot` or `Launch Release` will launch the game using an imbedded bash script with better memory allocation for newer systems.
+
 
 ### Environment
 
