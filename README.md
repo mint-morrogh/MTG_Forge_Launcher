@@ -1,4 +1,6 @@
-# Forge Updater
+# Forge Launcher
+
+EDIT: Used to be "Forge Updater" but now it includes a Launcher so I've decided to rename the repo.
 
 A Python-based Forge Updater, Installer, and Launcher designed for Windows machines, packaged as an executable using PyInstaller. This utility simplifies the process of backing up, downloading, launching, and extracting the latest Forge SNAPSHOT and RELEASE updates directly into your local Forge directory.
 
