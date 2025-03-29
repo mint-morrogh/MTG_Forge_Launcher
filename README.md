@@ -24,8 +24,9 @@ Simply download the `forge_updater.exe` file.
 
 1. Ensure the `forge_updater.exe` is located within your Forge SNAPSHOT directory (the folder containing `forge.exe`, `forge.cmd`, `forge.sh`, and the rest of your Forge files). For a fresh install, place this in a new folder where you want Forge to be installed.
 2. Run the executable from within your Forge directory to open the updater GUI.
-3. Click the **Update Forge** button to start the update process for both SNAPSHOT and RELEASE versions and create a backup. For a fresh install, click the **Install Forge** button.
-4. Once the update or install is complete, a confirmation message will prompt you to close the window. Please wait for this message as the process may take time depending on your network speed.
+3. If "Java Version is Unsupported" is shown in the bottom right of the GUI, click on that message and the launcher will download Java 17 for you, simply run that Java 17 installer and then restart the Launcher. 
+4. Click the **Update Forge** button to start the update process for both SNAPSHOT and RELEASE versions and create a backup. For a fresh install, click the **Install Forge** button.
+5. Once the update or install is complete, a confirmation message will prompt you to close the window. Please wait for this message as the process may take time depending on your network speed.
 
 
 ## Usage for Launching (After Updating)
