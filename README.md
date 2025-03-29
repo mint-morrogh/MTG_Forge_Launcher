@@ -9,6 +9,7 @@ A Python-based Forge Updater, Installer, and Launcher designed for Windows machi
 - **Automated Forge Update Process**: Fetches, downloads, and extracts the latest Forge versions. This also creates a backup of your old versions automatically.
 - **Integrated Extractors**: Contains built-in extraction tools for both `.bz2` and `.tar` files.
 - **Error Handling**: Includes safety measures to ensure the tool is run in the proper directory, the proper files are downloaded and extracted, and prevents the user from fresh installing Forge if forge files are found in the root directory.
+- **Java Version Handler**: Added a Java version check on launch to make sure the user has a compatible version installed, and if not, will easily fetch the correct version.
 - **Dynamic Memory Allocation**: The heap memory (up to 50% of available RAM or capped at 32GB) is allocated to the Java process only for the game runtime. If the game requires more memory within that limit, Java will adjust the heap size dynamically during the runtime.
 - **Game-Specific Additions**: Any runtime configuration provided via the `-D` options (like reflection accessibility, encoding, or module permissions) is applied to the game process as long as it’s running.
 - **External Dependencies Management**: If your game needs additional system resources (e.g., graphics, I/O), those will be managed by the game and Java process while it’s running. When the game is closed, all memory and resources are released.
